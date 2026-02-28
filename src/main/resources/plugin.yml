@@ -1,0 +1,10 @@
+name: BannerBank
+version: '${project.version}'
+main: de.lulurobb.bannerbank.Main
+api-version: '1.21'
+authors: [ LuluRobb ]
+commands:
+  bannerbank:
+    aliases:
+      - banner
+      - bb

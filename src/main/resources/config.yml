@@ -1,0 +1,51 @@
+Config:
+  Messages:
+    Prefix: "<dark_purple>BannerBank <dark_gray>> <gray>"
+    General:
+      NoPermission: "<red>You don't have permission!"
+      NoConsole: "<red>Only Players can execute this Command!"
+      NoPlayer: "<red>The Player <dark_red>%player%<red does not exist!"
+
+    ColorSelection:
+      ColorSelected: ""
+    UI:
+      InfoItem:
+        Name: "<dark_purple>%player%`s BannerBank"
+      ReturnItem:
+        Name: "<gray>Go back"
+      BannerBank:
+        Title: "<dark_purple>BannerBank"
+
+        BackgroundFiller:
+          Name: " "
+        ChangeFontItem:
+          Name: "<yellow>Change Font"
+          Lore:
+            - ""
+            - "<gray>Current Color: %color%%color_name%"
+        ChangeBackgroundItem:
+          Name: "<yellow>Change Background"
+          Lore:
+            - ""
+            - "<gray>Current Color: %color%%color_name%"
+        NoPermissionBannerItem:
+          Name: "<red>Not Available"
+          Lore:
+            - "<red>You don't have the permission to get this Banner!"
+        GetBannerItem:
+          Name: "%font_color%%letter% %background_color%Banner"
+        GetBannerPreviewItem:
+          Name: "%font_color%%letter% %background_color%Banner"
+          Lore:
+            - ""
+            - " <gray>☞ <yellow>Click to get."
+      ChangeColor:
+        Title: "<dark_purple>Change font"
+        BackgroundFiller:
+          Name: " "
+        SelectedAddition: "<green> ☞ <bold>Selected</bold> ☜"
+        ColorItem:
+          Name: "%color%%color_name%%selected%"
+          Lore:
+            - ""
+            - " <gray>☞ <yellow>Click to select."
